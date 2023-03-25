@@ -1,39 +1,38 @@
 {
-  "users" :[
+  "users":[
     {
-      "id":1,
       "username":"vivek",
-     "email":"vivek@gmail.com",
-     "password":123456
+      "email":"vivek@gmail.com",
+      "password":123456
     },
     {
-      "id":2,
       "username":"ashu",
-     "email":"ashu@gmail.com",
-     "password":123456
+      "email":"ashu@gmail.com",
+      "password":123456
     }
   ],
-  "companies":[
+  "movies":[
     {
       "id" : 1,
-      "company_logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
-      "company_name": "HDFC Bank",
-      "company_type": "Bank",
-      "stock_exchange": "NSE",
-      "total_shares": 50000,
-      "cost_per_share": 4210,
-      "price_action": 12
+      "poster" : "https://image.tmdb.org/t/p/original/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+      "title" : "Doctor Strange in the Multiverse of Madness",
+      "director" : "Sam Raimi",
+      "year" : 2022,
+      "genre" : "Action",
+      "IMDB_Rating" : 6.8,
+      "ticket" : 200
     },
     {
       "id" : 2,
-      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
-      "company_name": "Reliance Industries",
-      "company_type": "Oil",
-      "stock_exchange": "BSE",
-      "total_shares": 20000,
-      "cost_per_share": 2132,
-      "price_action": 4
+      "poster" : "https://images2.9c9media.com/image_asset/2019_2_14_f02ce589-7434-4ef2-ae0f-1879c20072e2_png_2000x3000.jpg",
+      "title" : "I Am Legend",
+      "director" : "Francis Lawrence",
+      "year" : 2007,
+      "genre" : "Horror",
+      "IMDB_Rating" : 7.2,
+      "ticket" : 200
     }
   ]
-
-  }
+  
+ 
+}
